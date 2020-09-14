@@ -49,32 +49,35 @@ GET      /api/v1/seen                       Check if recipient has seen an annou
 POST     /api/v1/seen                       Adds a recipient to an announcement
 =======  =================================  =============================================
 
+Screens
+=======
+
 Dashboard
-=========
+---------
 The Dashboard Screen (Home Screen) gives you an overview over all the current announcements.
 For each announcement it shows some interesting stats about the recipients and a time graph of
 when the recipients have seen the announcement.
 
 Announcements
-=============
+-------------
 The Announcements Screen shows an overview over all your announcements, where you can
 manage (create, update, delete) them
 
 Documents
-=========
+---------
 The Documents Screen lets you manage the documents of an announcement
 
 Recipients
-==========
+----------
 The Recipients Screen displays all the recipients of an announcement.
 You can also add a recipient manually or remove him from an announcement.
 
 Settings
-========
+--------
 The API Settings are the only settings implemented yet.
 There you can generate an API Key to connect your website/-application with the Anounz App.
 
 Test (Dev only)
-===============
+---------------
 This screen is for testing purposes only.
 It allows you to communicate with the public API without a website.
